@@ -1,9 +1,264 @@
-h1
-    {
-        color:darkred;
-    }
+body {
+  font-family: Helvetica;
+  background-color: #cecbcb;
+}
 
-body
-    {
-    background-color: darkorange;
-    }
+.menu {
+  text-align: center;
+  padding-top: 10px;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  
+}
+
+.box
+{
+  
+  text-align: center;
+  width: 30%;
+  
+  padding: 20px;
+  background-color: #fbfafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.1);
+  
+}
+
+.box h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.box p {
+  margin: 10px 0;
+}
+
+
+.edu
+{
+  padding-top: 100px;
+}
+
+
+
+.box1 {
+  text-align: center;
+  max-width: 30%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fbfafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box1 h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.box1 p {
+  margin: 5px 0;
+}
+
+
+
+
+
+.glass
+{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur (10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:5px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.homepage
+{
+    font-size: 50px;
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 100px;
+}
+
+.homepage p
+{
+    padding-top: 20px;
+}
+
+
+
+.maps
+{
+    
+    padding: 150px;
+}
+
+.biodata-info
+ {
+    padding: 100px;
+    max-width: 50%;
+    margin: 20px auto;
+  }
+  
+  .biodata {
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .biodata h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .details p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .details strong {
+    font-weight: bold;
+  }
+  
+  .details p:last-child {
+    margin-bottom: 0;
+  }
+
+.profile-image img 
+{
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+
+
+
+.contact
+{
+  
+  padding: 80px;
+  text-align: center;
+}
+
+.contact1
+{
+  text-align: center;
+}
+
+
+.hobby {
+  max-width: 900px;
+  margin: 20px auto;
+  padding-top: 100px;
+}
+
+.hobby-content {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.hobby h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.hobby-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hobby-item1 {
+  width: calc(33.33% - 20px);
+  background-color: #d7cbcb;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.hobby-item2 {
+  width: calc(33.33% - 20px);
+  background-color: #d7cbcb;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.hobby-item3 {
+  width: calc(33.33% - 20px);
+  background-color: #d7cbcb;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.hobby-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.hobby-details h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.hobby-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #777777;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #c08c8c;
+  font-weight: bold;
+  color: rgb(19, 18, 18);
+  padding: 10px;
+  text-align: left;
+
+}
+
+tr {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e6e6e6;
+}
+
+.education
+{
+  text-align: center;
+  padding-top: 300px;
+}
+
